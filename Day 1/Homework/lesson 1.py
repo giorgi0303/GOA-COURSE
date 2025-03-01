@@ -1,3 +1,4 @@
+
 name = "giorgi"    #str "string"_ ტიპის ცვლადი
 age = 22  # ეს არის int (integer) მთელი რიცხვი
 height = 182,5 # ეს არის float ტიპის ცვლადი (ათწილადი)
