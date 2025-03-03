@@ -1,6 +1,6 @@
 from turtle import *
 #settings
-speed(2000)
+speed(6)
 width (4)
 penup()
 goto(-200,-200)
