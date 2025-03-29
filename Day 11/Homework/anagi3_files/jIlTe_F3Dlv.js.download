@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("cometComposerMpJobsLogger",["CometMarketplaceLogger"],(function(a,b,c,d,e,f,g){"use strict";function a(a){switch(a.type){case"MP_IMPRESSION":h(a.fields);break;case"MP_CLICK":i(a.fields);break;default:break}}function h(a){d("CometMarketplaceLogger").logImpression(a.ui_component,null,a.referral_surface,void 0,a.referral_component)}function i(a){d("CometMarketplaceLogger").logClick(a.ui_component,null,a.referral_surface,void 0,a.referral_component)}g["default"]=a}),98);
