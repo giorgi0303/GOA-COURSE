@@ -5,3 +5,34 @@
 #Gender (radio buttons: Male, Female, Other, required)
 #Hobbies (checkboxes: Reading, Sports, Music, required at least one)
 #Submit Button-->
+
+<html>
+    <head>
+        <title>Registration</title>
+        <h1>Registration</h1>
+    </head>
+    <body>
+        <form>
+            <input name="Ful name" value="giorgi svanidze" type="text" placeholder="Fullname" required > <br><br>
+            <input type="email" placeholder="Email" name="Email" value="svanski08@gmail.com" required><br><br>
+            <input type="number" placeholder=" Enter your age" name="age" value="21" required><br><br>
+            <input type="text" placeholder="your city" name="location" value="tbilisi" required><br><br>
+            <input id="gend" type="radio" name="gender" value="Male"  required>
+            <i class='bx bx-male-sign'></i>
+            <label for="gend">male</label>
+            <input id="gender" type="radio" name="gender" value="famele" required>
+            <i class='bx bx-female-sign'></i>
+            <label for="gender">Famele</label>
+
+
+            <h3>Choose your hobbies</h3>
+            <select>
+                <option value="Reading">Reading</option>
+                <option value="Sports">Sports</option>
+                <option value="Music">Music</option>
+                <option value="Dance">Dance</option>
+            </select><br><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
