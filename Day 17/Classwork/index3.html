@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>audio.ge</title>
-    </head>
-    <body>
-        <h1>audio</h1>
-        <video src="./video1.mp4" width="400" height="400" controls><source type="video"></video>
-        <video src="./video1.mov" width="400" height="400" controls><source type="video"></video>
-        <video src="./video1.mp3" width="400" height="400" controls><source type="video"></video>
-        <video src="./video1.DSS" width="400" height="400" controls><source type="video"></video>
-    </body>
+<head>
+    <title>audio.ge</title>
+</head>
+<body>
+    <h1>მულტიმედია ფაილები</h1>
+
+    <!-- mp4 ვიდეო -->
+    <video width="400" height="400" controls>
+        <source src="./video1.mp4" type="video/mp4">
+        შენი ბრაუზერი არ უჭერს მხარს ვიდეოს ჩვენებას.
+    </video>
+
+    <!-- mov ვიდეო -->
+    <video width="400" height="400" controls>
+        <source src="./video1.mov" type="video/quicktime">
+        შენი ბრაუზერი არ უჭერს მხარს ვიდეოს ჩვენებას.
+    </video>
+
+    <!-- mp3 აუდიო -->
+    <audio controls>
+        <source src="./video1.mp3" type="audio/mpeg">
+        შენი ბრაუზერი არ უჭერს მხარს აუდიო ფაილების დაკვრას.
+    </audio>
+
+    <!-- DSS (არ არის სტანდარტული, შესაძლოა არ იმუშაოს) -->
+    <audio controls>
+        <source src="./video1.DSS" type="audio/x-dss">
+        შენი ბრაუზერი არ უჭერს მხარს ამ აუდიო ფორმატს.
+    </audio>
+</body>
 </html>
+
 
 <!--3) საიტზე დაამატეთ audio ელემენტი სწორი გზით, მინიმუმ 3 ფორმატი (არაა უცილებელი სხვადასხვა აუდიო ფაილები ფორმალურად შეცვალეთ type ატრიბუტი) საბოლოოდ დაამატეთ ტექსტი იმ შემთხვევისთვის თუ არცერთი თქვენი აუდიო ფაილი არ იქნება მხარდაჭერილი-->
