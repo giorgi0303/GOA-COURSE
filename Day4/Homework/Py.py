@@ -33,8 +33,8 @@ print (name + "3")
 
 #7.
 
-name = "Giorgi" ""
-surname = "Svanidze" ""
+name = "Giorgi"
+surname = "Svanidze"
 age = 22
 
-print((name + surname) * age)
+print((name + " " +surname + " ") * age)
